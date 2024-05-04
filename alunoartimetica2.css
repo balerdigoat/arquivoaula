@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1493f4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 355px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#dadosAlunos {
+    margin-bottom: 20px;
+   
+}
+
+.resultados {
+    margin-top: 20px;
+}
+
+.resultados p {
+    margin: 0;
+}
+
+.alunos { margin-top: auto;
+    margin-top: 20px;
+    width: 355px;
+padding: 10px;
+}
+img { height: 70px;
+
+}
+header { background-color: #fff;
+
+}
+footer { 
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+}
+.imagensrodape { background-color: #fff;
+
+}
